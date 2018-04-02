@@ -1,0 +1,12 @@
+uuid: 79c406ff-3e65-4359-a122-f8ec36aad251
+name: 'Components and Layout'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

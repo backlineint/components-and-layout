@@ -1,0 +1,8 @@
+uuid: fbbeaf1a-cfca-4620-b469-15928f463c63
+langcode: en
+status: true
+dependencies: {  }
+id: html_month
+label: 'HTML Month'
+locked: true
+pattern: Y-m
