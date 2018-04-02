@@ -1,0 +1,18 @@
+uuid: f340591f-1391-4f12-a56c-6f3943cdd768
+langcode: en
+status: true
+dependencies:
+  theme:
+    - components_layout
+id: components_layout_page_title
+theme: components_layout
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

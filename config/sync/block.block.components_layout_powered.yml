@@ -1,0 +1,20 @@
+uuid: a6a188ea-015a-4806-b89d-c0d708d36684
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - components_layout
+id: components_layout_powered
+theme: components_layout
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

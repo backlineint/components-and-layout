@@ -1,0 +1,20 @@
+uuid: b1c7420c-9ecb-446c-9f2d-983aefef4e7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - components_layout
+id: components_layout_content
+theme: components_layout
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

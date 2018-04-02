@@ -1,0 +1,18 @@
+uuid: a4e22dbf-d34e-4426-8144-90322b172700
+langcode: en
+status: true
+dependencies:
+  theme:
+    - components_layout
+id: components_layout_local_actions
+theme: components_layout
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

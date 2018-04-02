@@ -1,0 +1,20 @@
+uuid: da6a7691-9450-4722-8e8c-e5a621688013
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - components_layout
+id: components_layout_messages
+theme: components_layout
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

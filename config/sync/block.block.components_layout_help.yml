@@ -1,0 +1,20 @@
+uuid: 9d930ba6-5bb1-4cbd-860c-923dfb14b845
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - components_layout
+id: components_layout_help
+theme: components_layout
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
